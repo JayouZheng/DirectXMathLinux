@@ -9,3 +9,4 @@ Tested with Clang 8.0.0
 * Replaced `__declspec(align(16))` with `alignas(16)`
 * Added many `#idfef _MSC_VER #pragma ... #endif`
 * Some other minor stuff
+* `XMVerifyCPUSupport()` always returns `true`
