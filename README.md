@@ -7,7 +7,7 @@ Oh, btw. it still compiles with MSVC and can be used on Windows.
 
 ## What I did
 
-* Initializer list `{ { { ... } } }` -> `{ ... }`
+* Initializer list `{ { { ... } } }` -> `{ ... }`. Added some constructors to some structs.
 * Replaced `__declspec(align(16))` with `alignas(16)`
 * Added many `#idfef _MSC_VER #pragma ... #endif`
 * Some other minor stuff
