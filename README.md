@@ -3,6 +3,8 @@
 DirectXMath (https://github.com/microsoft/DirectXMath) version that compiles on Linux.
 Tested with Clang 8.0.0
 
+Oh, btw. it still compiles with MSVC and can be used on Windows.
+
 ## What I did
 
 * Initializer list `{ { { ... } } }` -> `{ ... }`
