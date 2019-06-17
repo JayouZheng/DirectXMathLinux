@@ -81,8 +81,7 @@ using namespace DirectX;
 
 int main()
 {
-	std::cout << "Testing AABB vs OBB 45 deg" << std::endl;
-    // Works as expected. Maybe I shouldn't have negative orientation?
+    std::cout << "Testing AABB vs OBB 45 deg" << std::endl;
     BoundingBox abb({ -3.5f, 0.0f, -3.5f }, { 0.5f, 0.5f, 0.5f });
     // 45Deg Y
     XMFLOAT4 orientation = { 0.000000000f, 0.382683456f, 0.000000000f, 0.923879504f };
