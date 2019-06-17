@@ -1,7 +1,7 @@
 # DirectXMathLinux
 
 DirectXMath (https://github.com/microsoft/DirectXMath) version that compiles on Linux.
-Tested with Clang 8.0.0, GCC 8.3.0 on x86_64.
+Tested with Clang 8.0.0 on x86_64.
 
 Oh, btw. it still compiles with MSVC and can be used on Windows.
 
