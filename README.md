@@ -91,3 +91,20 @@ Oh, btw. it still compiles with MSVC and can be used on Windows.
 #include <DirectXMath.h>
 #include <DirectXCollision.h>
 ~~~
+
+## Test
+
+To compile the `test` program type `make` in this directory. To change to Clang tools
+change:
+
+~~~make
+CC = gcc
+CXX = g++
+~~~
+
+to:
+
+~~~make
+CC = clang
+CXX = clang++
+~~~
